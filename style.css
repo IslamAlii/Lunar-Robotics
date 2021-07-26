@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font: normal normal normal 16px/19px Roboto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    border-bottom: 1px solid #C50000;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links {
+    margin-right: 20rem;
+    padding: 20px 0;
+}
+
+nav .links a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 20px 0;
+    transition: all .5s;
+}
+
+nav .links a.active {
+    color: #C50000;
+    border-bottom: 3px solid #C50000;
+}
+
+.pricing {
+    display: none;
+}
+
+.pricing.active {
+    display: block;
+}
+
+.pricing .head h1 {
+    width: 1091px;
+    height: 38px;
+    color: #C50000;
+    margin: 20px 0 -20px;   
+}
+
+.pricing .head p {
+    width: 1091px;
+    height: 38px;
+}
+
+.pricing p span {
+    color: #C50000;
+}
+
+.pricing .buttons {
+    margin-bottom: 30px;
+}
+
+.pricing .buttons button {
+    width: 259px;
+    height: 54px;
+    color: white;
+    background-color: #C50000;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.pricing .buttons button i {
+    margin-right: 5px;
+}
+
+.pricing .packages {
+    position: relative;
+}
+
+.pricing .package {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.pricing .package.active {
+    display: block;
+}
+
+.pricing .package .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing .package .inner h4 {
+    width: 535px;
+    height: 24px;
+    margin: 0 0 -15px;
+    padding: 0;
+}
+
+.pricing .package .inner .price {
+    color: #C50000;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0 20px;
+}
+
+.pricing .package .inner button {
+    color: #C50000;
+    background-color: transparent;
+    width: 248px;
+    height: 54px;
+    display: block;
+    border: 1px solid #C50000;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.pricing .package .inner > img {
+    width: 47%;
+}
+
+.dashboard {
+    display: none;
+}
+
+.dashboard.active {
+    display: block;
+}
+
+.dashboard .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard aside {
+    width: 20%;
+}
+
+.dashboard aside button {
+    width: 260px;
+    height: 60px;
+    color: #C50000;
+    background-color: transparent;
+    font: normal normal medium 16px/19px Roboto;
+    display: block;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.dashboard aside button.active {
+    color: #FFFFFF;
+    background-color: #C50000;
+    border: 1px solid #C50000;
+}
+
+.dashboard .main {
+    width: 73%;
+}
+
+.dashboard .main .connected {
+    display: flex;
+    border: 1px solid #C50000;
+    padding: 1rem;
+}
+
+.dashboard .main .connected img {
+    border-right: 2px solid rgb(204, 201, 201);
+    margin-right: 1rem;
+}
+
+.dashboard .main .connected .des h4 {
+    color: #C50000;
+    margin-top: 0;
+}
+
+.dashboard .main .connected .des span {
+    color: #373737;
+    font-size: 14px;
+    display: block;
+}
+
+.dashboard .main .details {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.dashboard .main .details .chart {
+    width: 300px;
+    height: 203px;
+    border: 1px solid #C50000;
+}
+
+.dashboard .main .details .chart img {
+    width: 250px;
+    margin-left: 10px;
+}
+
+.dashboard .main .details .chart .perc {
+    width: 250px;
+    background-color: #C50000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0 1rem;
+}
+
+.dashboard .main .details .chart .perc span:first-of-type {
+    width: 55%;
+    color: #FFFFFF;
+    font-size: 37px;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.dashboard .main .details .chart .perc span:last-of-type {
+    width: 86px;
+    height: 46px;
+    color: #000000;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+}
+
+.dashboard .main .details .readings {
+    width: 201px;
+    height: 203px;
+    margin-left: 1rem;
+    border: 1px solid #C50000;
+}
+
+.dashboard .main .details div h6 {
+    color: #FFFFFF;
+    background-color: #C50000;
+    margin-top: 0;
+    padding: 0 .5rem;
+}
+
+.dashboard .main .details .readings span {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.dashboard .main .details .readings span:first-of-type {
+    color: #C50000;
+}

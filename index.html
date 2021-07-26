@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Robotics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="links">
+                <a href="#" class="active">Pricing</a>
+                <a href="#">Dashboard</a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="pricing active">
+        <div class="container">
+            <div>
+                <div class="head">
+                    <h1>Pricing</h1>
+                    <p>The preconfigured packages offer everything needed to get started quickly.<br>
+                    Don't see what you're looking for? Visit our <span>sensors and components store</span> or <span>contact us</span>.</p>
+                </div>
+                
+                <div class="buttons">
+                    <button> <i class="fas fa-caret-down"></i> Develop package</button>
+                    <button> <i class="fas fa-caret-right"></i> Explore package</button>
+                    <button> <i class="fas fa-caret-right"></i> Vision package</button>
+                </div>
+    
+                <div class="packages">
+                    <div class="package develop active">
+                        <div class="inner">
+                            <div>
+                                <h4>Develop package</h4>
+                                <p>
+                                    We've partnered with NVIDIA to offer a "Lander5" built around the Jetson <br>
+                                    AGX Xavier: a fast, efficient computing device, ideal for robotics <br>
+                                    development. The JETSON developer package takes advantage of NVIDIA's <br>
+                                    standard hardware interfaces and graphics processing capabilities. Built <br>
+                                    around a powerful and compact GPU, the Jetson is the preferred <br>
+                                    computing platform for VSLAM, 3D imaging and machine learning <br>
+                                    applications.
+                                </p>
+                                <span class="price">19,999 EGP</span>
+                                <button>Purchase</button>
+                            </div>
+                            <img src="images/wireframe car.png" alt="Wireframe Car">
+                        </div>
+                    </div>
+    
+                    <div class="package explore">
+                        <div class="inner">
+                            <div>
+                                <h4>Explore package</h4>
+                                <p>
+                                    The Lander5 Explorer Package is designed for basic autonomous operation<br>
+                                    in both indoor and outdoor environments. Applications range from GPS<br>
+                                    waypoint navigation with laser-based collision avoidance, to indoor<br>
+                                    mapping and path planning. A powerful Mini-ITX computer system comes<br>
+                                    pre-installed with Linux and ROS, all component RoS drivers are installed<br>
+                                    and pre-configured.
+                                </p>
+                                <span class="price">24,999 EGP</span>
+                                <button>Purchase</button>
+                            </div>
+                            <img src="images/main car.png" alt="Wireframe Car">
+                        </div>
+                    </div>
+    
+                    <div class="package vision">
+                        <div class="inner">
+                            <div>
+                                <h4>Vision package</h4>
+                                <p>
+                                    The Lander Vision Package includes two front-facing FLIR Blackfly<br>
+                                    cameras for stereo vision, an upgraded GPU graphics card and a high<br>
+                                    performance computer. This package comes with a pre-installed CUDA<br>
+                                    toolkit, and is fully supported with ROS, RViz (visualization), and Gazebo<br>
+                                    (simulator).
+                                </p>
+                                <span class="price">29,999 EGP</span>
+                                <button>Purchase</button>
+                            </div>
+                            <img src="images/vision.png" alt="Wireframe Car">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard">
+        <div class="container">
+            <aside>
+                <button class="active">Dashboard</button>
+                <button>Develop</button>
+                <button>Upgrade</button>
+                <button>Support</button>
+            </aside>
+            <div class="main">
+                <h4>Dashboard</h4>
+                <div class="connected">
+                    <img src="images/wireframe car2.png" alt="wireframe car2">
+                    <div class="des">
+                        <h4>Connected</h4>
+                        <span>Model: LANDER5</span>
+                        <span>Serial: l3s5g-d8</span>
+                        <span>Duration: 3 hours</span>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="chart">
+                        <h6>Risk</h6>
+                        <img src="images/chart.png" alt="chart">
+                        <div class="perc">
+                            <span>20%</span>
+                            <span>Risk</span>
+                        </div>
+                    </div>
+
+                    <div class="readings">
+                        <h6>Readings</h6>
+                        <span>
+                            Battery: <br>
+                            Voltage: <br>
+                            Speed: <br>
+                            Location: <br>
+                            Signal strength: <br>
+                        </span>
+
+                        <span>
+                            55% <br>
+                            48.6 V <br>
+                            3 m/s <br>
+                            Cairo <br>
+                            77% <br>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/fb70e157c7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
